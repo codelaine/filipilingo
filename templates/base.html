@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fil">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{% block title %}FilipiLingo 🌟{% endblock %}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <!-- Top Navigation Bar -->
+  <nav class="navbar">
+    <a href="/" class="nav-brand">
+      <span class="brand-icon">🇵🇭</span>
+      <span class="brand-name">FilipiLingo</span>
+    </a>
+    <div class="nav-stats">
+      <div class="stat-pill streak-pill" id="nav-streak">
+        <span class="stat-icon">🔥</span>
+        <span class="stat-value" id="streak-count">{{ streak }}</span>
+        <span class="stat-label">araw</span>
+      </div>
+      <div class="stat-pill star-pill">
+        <span class="stat-icon">⭐</span>
+        <span class="stat-value" id="stars-count">{{ total_stars }}</span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    {% block content %}{% endblock %}
+  </main>
+
+  <!-- Celebration Overlay -->
+  <div id="celebration-overlay" class="celebration-overlay hidden">
+    <div class="celebration-box">
+      <div class="celebration-emoji" id="celebration-emoji">🎉</div>
+      <h2 class="celebration-title" id="celebration-title">Napakagaling!</h2>
+      <p class="celebration-msg" id="celebration-msg"></p>
+      <div class="stars-display" id="stars-display"></div>
+      <button class="btn btn-primary btn-lg" id="celebration-btn">Magpatuloy</button>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div id="toast" class="toast hidden"></div>
+
+  <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+  {% block scripts %}{% endblock %}
+</body>
+</html>

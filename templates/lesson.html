@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+
+{% block title %}{{ topic.title }} – FilipiLingo{% endblock %}
+
+{% block content %}
+<!-- Lesson Header -->
+<div class="lesson-header">
+  <a href="/" class="back-btn">← Bumalik</a>
+  <div class="lesson-topic-info">
+    <span class="lesson-icon">{{ topic.icon }}</span>
+    <div>
+      <h1 class="lesson-title">{{ topic.title }}</h1>
+      <p class="lesson-desc">{{ topic.description }}</p>
+    </div>
+  </div>
+  <!-- Progress Bar -->
+  <div class="progress-container">
+    <div class="progress-bar-bg">
+      <div class="progress-bar-fill" id="progress-fill" style="width:0%"></div>
+    </div>
+    <span class="progress-text" id="progress-text">0 / {{ questions|length }}</span>
+  </div>
+</div>
+
+<!-- Hearts -->
+<div class="hearts-row" id="hearts-row">
+  <span class="heart" id="h1">❤️</span>
+  <span class="heart" id="h2">❤️</span>
+  <span class="heart" id="h3">❤️</span>
+</div>
+
+<!-- Quiz Area -->
+<div class="quiz-area" id="quiz-area">
+  <!-- Intro Card -->
+  <div class="quiz-card intro-card" id="intro-card">
+    <div class="intro-icon">{{ topic.icon }}</div>
+    <h2 class="intro-heading">Handa ka na ba?</h2>
+    <p class="intro-sub">{{ topic.description }}</p>
+    <p class="intro-count"><strong>{{ questions|length }} tanong</strong> ang naghihintay sa iyo!</p>
+    <button class="btn btn-primary btn-xl" id="start-btn">Magsimula! 🚀</button>
+  </div>
+
+  <!-- Question Card (hidden until started) -->
+  <div class="quiz-card question-card hidden" id="question-card">
+    <div class="question-number" id="q-number">Tanong 1 / {{ questions|length }}</div>
+    <div class="question-type-badge" id="q-type-badge">Piliin ang tamang sagot</div>
+    <p class="question-text" id="q-text"></p>
+    <div class="hint-row">
+      <button class="hint-btn" id="hint-btn">💡 Pahiwatig</button>
+      <span class="hint-text hidden" id="hint-text"></span>
+    </div>
+    <div class="choices-grid" id="choices-grid"></div>
+    <!-- Feedback -->
+    <div class="feedback-bar hidden" id="feedback-bar">
+      <span class="feedback-icon" id="feedback-icon"></span>
+      <span class="feedback-msg" id="feedback-msg"></span>
+    </div>
+    <button class="btn btn-primary btn-next hidden" id="next-btn">Susunod →</button>
+  </div>
+</div>
+
+<!-- Hidden data for JS -->
+<script id="questions-data" type="application/json">{{ questions | tojson }}</script>
+<script id="topic-data" type="application/json">{{ topic | tojson }}</script>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/lesson.js') }}"></script>
+{% endblock %}

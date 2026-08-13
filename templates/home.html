@@ -1,0 +1,91 @@
+{% extends "base.html" %}
+
+{% block title %}FilipiLingo – Matuto ng Filipino!{% endblock %}
+
+{% block content %}
+<!-- Hero Section -->
+<section class="hero">
+  <div class="hero-text">
+    <h1 class="hero-title">Matuto ng Filipino! 🌟</h1>
+    <p class="hero-sub">Piliin ang iyong aralin at simulan ang pakikipagsapalaran!</p>
+  </div>
+
+  <!-- Streak Banner -->
+  <div class="streak-banner {% if streak == 0 %}streak-zero{% endif %}">
+    <span class="streak-fire">🔥</span>
+    <div class="streak-info">
+      {% if streak == 0 %}
+        <span class="streak-headline">Simulan ang iyong streak ngayon!</span>
+        <span class="streak-sub">Mag-aral araw-araw upang mapanatili ang iyong streak!</span>
+      {% elif streak == 1 %}
+        <span class="streak-headline">{{ streak }} araw na streak! 🎉</span>
+        <span class="streak-sub">Magaling! Bumalik bukas para mapanatili ito!</span>
+      {% else %}
+        <span class="streak-headline">{{ streak }} araw na streak! 🔥</span>
+        <span class="streak-sub">Kahanga-hanga! Huwag itong iwasak!</span>
+      {% endif %}
+    </div>
+    <div class="streak-num">{{ streak }}</div>
+  </div>
+
+  <!-- Daily Progress -->
+  <div class="daily-card">
+    <span class="daily-icon">📚</span>
+    <div>
+      <div class="daily-title">Mga aralin ngayon</div>
+      <div class="daily-count" id="lessons-today">{{ lessons_today }}</div>
+    </div>
+    <span class="daily-badge">Walang limitasyon! 🚀</span>
+  </div>
+</section>
+
+{% set grade_meta = {1: ("🌱", "Baitang 1"), 2: ("🌿", "Baitang 2"), 3: ("🌳", "Baitang 3"), 4: ("⭐", "Baitang 4"), 5: ("🌟", "Baitang 5"), 6: ("🏆", "Baitang 6")} %}
+<!-- Grade Accordion -->
+<section class="topics-section">
+  <h2 class="section-title">Piliin ang Baitang <span class="section-badge">Baitang 1–6</span></h2>
+  <div class="accordion" id="grade-accordion">
+    {% for grade in grades %}
+    <div class="accordion-item" id="grade-{{ grade.num }}">
+      <div class="accordion-header" onclick="toggleAccordion('grade-{{ grade.num }}')">
+        <div class="accordion-header-left">
+          <span class="accordion-grade-badge">Grade {{ grade.num }}</span>
+          <span class="accordion-title">{{ grade_meta[grade.num][0] }} {{ grade_meta[grade.num][1] }}</span>
+          <span class="accordion-count">{{ grade.topics|length }} paksa</span>
+        </div>
+        <span class="accordion-chevron">▼</span>
+      </div>
+      <div class="accordion-body">
+        <div class="accordion-topics-grid">
+          {% for topic in grade.topics %}
+          <a href="/lesson/{{ topic.id }}" class="topic-card {% if topic.completed %}completed{% endif %} topic-color-{{ (topic.id % 8) + 1 }}">
+            <div class="topic-icon">{{ topic.icon }}</div>
+            <div class="topic-body">
+              <div class="topic-title">{{ topic.title }}</div>
+              <div class="topic-english">{{ topic.english }}</div>
+              <div class="topic-meta">
+                <span class="topic-questions">{{ topic.question_count }} tanong</span>
+                {% if topic.completed %}
+                <span class="topic-done-badge">✅ Tapos na!</span>
+                {% else %}
+                <span class="topic-start-badge">▶ Simulan</span>
+                {% endif %}
+              </div>
+            </div>
+          </a>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+{% endblock %}
+
+{% block scripts %}
+<script>
+  function toggleAccordion(id) {
+    const item = document.getElementById(id);
+    item.classList.toggle('open');
+  }
+</script>
+{% endblock %}
