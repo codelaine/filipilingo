@@ -69,12 +69,13 @@ function renderQuestion(idx) {
   progressFill.style.width = pct + '%';
   progressText.textContent = `${idx} / ${QUESTIONS.length}`;
 
-  // Choices
+  // Choices — shuffle order each render (answer comparison is by value, not index)
   choicesGrid.innerHTML = '';
   const isTF = q.type === 'true_false';
   choicesGrid.className = 'choices-grid ' + (isTF ? 'grid-2' : 'grid-4');
 
-  q.choices.forEach((choice, i) => {
+  const shuffledChoices = isTF ? [...q.choices] : [...q.choices].sort(() => Math.random() - 0.5);
+  shuffledChoices.forEach((choice, i) => {
     const btn = document.createElement('button');
     btn.className = 'choice-btn';
     btn.innerHTML = `
