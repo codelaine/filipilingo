@@ -4,7 +4,9 @@ from datetime import date, datetime, timedelta
 from flask import Flask, render_template, request, jsonify, session
 
 app = Flask(__name__)
-app.secret_key = "filipilingo-secret-2024"
+
+# set SECRET_KEY as environment variable
+app.secret_key = os.environ.get("SECRET_KEY", "dev-only-fallback-change-in-production")
 
 # ── Data Loading ──────────────────────────────────────────────────────────────
 
