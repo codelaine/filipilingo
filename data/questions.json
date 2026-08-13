@@ -1,6 +1,6 @@
 {
   "questions": {
-    "1": [
+    "1-1": [
       {"id":1,"type":"multiple_choice","question":"Ano ang kulay ng langit?","answer":"Asul","choices":["Asul","Pula","Berde","Dilaw"],"hint":"The sky is this color on a sunny day!"},
       {"id":2,"type":"multiple_choice","question":"Ano ang kulay ng araw?","answer":"Dilaw","choices":["Dilaw","Asul","Itim","Puti"],"hint":"The sun shines bright with this color!"},
       {"id":3,"type":"multiple_choice","question":"Ano ang kulay ng damo?","answer":"Berde","choices":["Berde","Pula","Asul","Kahel"],"hint":"Plants and leaves are this color!"},
@@ -17,7 +17,7 @@
       {"id":14,"type":"multiple_choice","question":"Anong kulay ang pilak?","answer":"Silver","choices":["Silver","Gold","White","Gray"],"hint":"Coins are often this color!"},
       {"id":15,"type":"multiple_choice","question":"Ano ang kulay ng ubas?","answer":"Lila","choices":["Lila","Pula","Berde","Asul"],"hint":"Grapes can be this purple color!"}
     ],
-    "2": [
+    "1-2": [
       {"id":1,"type":"multiple_choice","question":"Ano ang 'one' sa Filipino?","answer":"Isa","choices":["Isa","Dalawa","Tatlo","Apat"],"hint":"The very first number!"},
       {"id":2,"type":"multiple_choice","question":"Ano ang 'two' sa Filipino?","answer":"Dalawa","choices":["Dalawa","Isa","Tatlo","Lima"],"hint":"You have two hands!"},
       {"id":3,"type":"multiple_choice","question":"Ano ang 'three' sa Filipino?","answer":"Tatlo","choices":["Tatlo","Dalawa","Apat","Anim"],"hint":"A triangle has this many sides!"},
@@ -34,7 +34,7 @@
       {"id":14,"type":"true_false","question":"Ang 'Tatlo' ay ang bilang na 4.","answer":"Mali","choices":["Tama","Mali"],"hint":"Tatlo means three, not four!"},
       {"id":15,"type":"multiple_choice","question":"Ano ang 'twenty' sa Filipino?","answer":"Dalawampu","choices":["Dalawampu","Sampung","Tatlumpu","Labindalawa"],"hint":"Two tens make this number!"}
     ],
-    "3": [
+    "1-3": [
       {"id":1,"type":"multiple_choice","question":"Ano ang 'dog' sa Filipino?","answer":"Aso","choices":["Aso","Pusa","Ibon","Isda"],"hint":"Man's best friend!"},
       {"id":2,"type":"multiple_choice","question":"Ano ang 'cat' sa Filipino?","answer":"Pusa","choices":["Pusa","Aso","Daga","Kabayo"],"hint":"This animal says meow!"},
       {"id":3,"type":"multiple_choice","question":"Ano ang 'bird' sa Filipino?","answer":"Ibon","choices":["Ibon","Isda","Palaka","Ahas"],"hint":"This animal can fly!"},
@@ -51,24 +51,7 @@
       {"id":14,"type":"multiple_choice","question":"Ano ang 'monkey' sa Filipino?","answer":"Unggoy","choices":["Unggoy","Oso","Leon","Elepante"],"hint":"This animal loves to climb trees and eat bananas!"},
       {"id":15,"type":"multiple_choice","question":"Ano ang 'rabbit' sa Filipino?","answer":"Kuneho","choices":["Kuneho","Daga","Hamster","Pusa"],"hint":"This fluffy animal has long ears and hops!"}
     ],
-    "4": [
-      {"id":1,"type":"multiple_choice","question":"Ano ang 'rice' sa Filipino?","answer":"Kanin","choices":["Kanin","Tinapay","Pasta","Lugaw"],"hint":"The staple food of Filipinos!"},
-      {"id":2,"type":"multiple_choice","question":"Ano ang 'bread' sa Filipino?","answer":"Tinapay","choices":["Tinapay","Kanin","Biskwit","Cake"],"hint":"We eat this for breakfast!"},
-      {"id":3,"type":"multiple_choice","question":"Ano ang 'egg' sa Filipino?","answer":"Itlog","choices":["Itlog","Karne","Manok","Isda"],"hint":"Chickens lay these!"},
-      {"id":4,"type":"multiple_choice","question":"Ano ang 'fish' (as food) sa Filipino?","answer":"Isda","choices":["Isda","Karne","Manok","Itlog"],"hint":"This comes from the sea!"},
-      {"id":5,"type":"multiple_choice","question":"Ano ang 'meat' sa Filipino?","answer":"Karne","choices":["Karne","Isda","Gulay","Prutas"],"hint":"Beef and pork are types of this!"},
-      {"id":6,"type":"multiple_choice","question":"Ano ang 'water' sa Filipino?","answer":"Tubig","choices":["Tubig","Gatas","Kape","Juice"],"hint":"We drink this every day to stay healthy!"},
-      {"id":7,"type":"multiple_choice","question":"Ano ang 'milk' sa Filipino?","answer":"Gatas","choices":["Gatas","Tubig","Kape","Juice"],"hint":"Babies love this drink!"},
-      {"id":8,"type":"multiple_choice","question":"Ano ang 'sugar' sa Filipino?","answer":"Asukal","choices":["Asukal","Asin","Paminta","Suka"],"hint":"This makes food sweet!"},
-      {"id":9,"type":"multiple_choice","question":"Ano ang 'salt' sa Filipino?","answer":"Asin","choices":["Asin","Asukal","Paminta","Suka"],"hint":"This makes food salty!"},
-      {"id":10,"type":"multiple_choice","question":"Ano ang 'vegetables' sa Filipino?","answer":"Gulay","choices":["Gulay","Prutas","Karne","Isda"],"hint":"Eat your greens!"},
-      {"id":11,"type":"multiple_choice","question":"Ano ang 'fruit' sa Filipino?","answer":"Prutas","choices":["Prutas","Gulay","Karne","Isda"],"hint":"Sweet and healthy snacks from trees!"},
-      {"id":12,"type":"true_false","question":"Ang 'Tubig' ay isang uri ng pagkain.","answer":"Mali","choices":["Tama","Mali"],"hint":"Tubig is something you drink, not eat!"},
-      {"id":13,"type":"multiple_choice","question":"Ano ang 'ice cream' sa Filipino?","answer":"Sorbetes","choices":["Sorbetes","Cake","Halo-halo","Leche Flan"],"hint":"A cold sweet treat!"},
-      {"id":14,"type":"multiple_choice","question":"Ano ang 'soup' sa Filipino?","answer":"Sabaw","choices":["Sabaw","Kanin","Gulay","Karne"],"hint":"A warm liquid food!"},
-      {"id":15,"type":"multiple_choice","question":"Ano ang 'cake' sa Filipino?","answer":"Keyk","choices":["Keyk","Tinapay","Biskwit","Sorbetes"],"hint":"We eat this on birthdays!"}
-    ],
-    "5": [
+    "1-4": [
       {"id":1,"type":"multiple_choice","question":"Ano ang 'mother' sa Filipino?","answer":"Nanay","choices":["Nanay","Tatay","Lolo","Lola"],"hint":"She takes care of you at home!"},
       {"id":2,"type":"multiple_choice","question":"Ano ang 'father' sa Filipino?","answer":"Tatay","choices":["Tatay","Nanay","Kuya","Ate"],"hint":"He is the man of the house!"},
       {"id":3,"type":"multiple_choice","question":"Ano ang 'older brother' sa Filipino?","answer":"Kuya","choices":["Kuya","Ate","Bunso","Tito"],"hint":"Your older male sibling!"},
@@ -85,7 +68,24 @@
       {"id":14,"type":"multiple_choice","question":"Ano ang 'youngest child' sa Filipino?","answer":"Bunso","choices":["Bunso","Panganay","Gitnang anak","Kapatid"],"hint":"The last born child in the family!"},
       {"id":15,"type":"multiple_choice","question":"Ano ang 'eldest child' sa Filipino?","answer":"Panganay","choices":["Panganay","Bunso","Gitnang anak","Kapatid"],"hint":"The first born child in the family!"}
     ],
-    "6": [
+    "2-1": [
+      {"id":1,"type":"multiple_choice","question":"Ano ang 'rice' sa Filipino?","answer":"Kanin","choices":["Kanin","Tinapay","Pasta","Lugaw"],"hint":"The staple food of Filipinos!"},
+      {"id":2,"type":"multiple_choice","question":"Ano ang 'bread' sa Filipino?","answer":"Tinapay","choices":["Tinapay","Kanin","Biskwit","Cake"],"hint":"We eat this for breakfast!"},
+      {"id":3,"type":"multiple_choice","question":"Ano ang 'egg' sa Filipino?","answer":"Itlog","choices":["Itlog","Karne","Manok","Isda"],"hint":"Chickens lay these!"},
+      {"id":4,"type":"multiple_choice","question":"Ano ang 'fish' (as food) sa Filipino?","answer":"Isda","choices":["Isda","Karne","Manok","Itlog"],"hint":"This comes from the sea!"},
+      {"id":5,"type":"multiple_choice","question":"Ano ang 'meat' sa Filipino?","answer":"Karne","choices":["Karne","Isda","Gulay","Prutas"],"hint":"Beef and pork are types of this!"},
+      {"id":6,"type":"multiple_choice","question":"Ano ang 'water' sa Filipino?","answer":"Tubig","choices":["Tubig","Gatas","Kape","Juice"],"hint":"We drink this every day to stay healthy!"},
+      {"id":7,"type":"multiple_choice","question":"Ano ang 'milk' sa Filipino?","answer":"Gatas","choices":["Gatas","Tubig","Kape","Juice"],"hint":"Babies love this drink!"},
+      {"id":8,"type":"multiple_choice","question":"Ano ang 'sugar' sa Filipino?","answer":"Asukal","choices":["Asukal","Asin","Paminta","Suka"],"hint":"This makes food sweet!"},
+      {"id":9,"type":"multiple_choice","question":"Ano ang 'salt' sa Filipino?","answer":"Asin","choices":["Asin","Asukal","Paminta","Suka"],"hint":"This makes food salty!"},
+      {"id":10,"type":"multiple_choice","question":"Ano ang 'vegetables' sa Filipino?","answer":"Gulay","choices":["Gulay","Prutas","Karne","Isda"],"hint":"Eat your greens!"},
+      {"id":11,"type":"multiple_choice","question":"Ano ang 'fruit' sa Filipino?","answer":"Prutas","choices":["Prutas","Gulay","Karne","Isda"],"hint":"Sweet and healthy snacks from trees!"},
+      {"id":12,"type":"true_false","question":"Ang 'Tubig' ay isang uri ng pagkain.","answer":"Mali","choices":["Tama","Mali"],"hint":"Tubig is something you drink, not eat!"},
+      {"id":13,"type":"multiple_choice","question":"Ano ang 'ice cream' sa Filipino?","answer":"Sorbetes","choices":["Sorbetes","Cake","Halo-halo","Leche Flan"],"hint":"A cold sweet treat!"},
+      {"id":14,"type":"multiple_choice","question":"Ano ang 'soup' sa Filipino?","answer":"Sabaw","choices":["Sabaw","Kanin","Gulay","Karne"],"hint":"A warm liquid food!"},
+      {"id":15,"type":"multiple_choice","question":"Ano ang 'cake' sa Filipino?","answer":"Keyk","choices":["Keyk","Tinapay","Biskwit","Sorbetes"],"hint":"We eat this on birthdays!"}
+    ],
+    "2-2": [
       {"id":1,"type":"multiple_choice","question":"Ano ang 'shirt' sa Filipino?","answer":"Damit","choices":["Damit","Pantalon","Sapatos","Sombrero"],"hint":"You wear this on your upper body!"},
       {"id":2,"type":"multiple_choice","question":"Ano ang 'pants' sa Filipino?","answer":"Pantalon","choices":["Pantalon","Damit","Palda","Medyas"],"hint":"You wear this on your legs!"},
       {"id":3,"type":"multiple_choice","question":"Ano ang 'shoes' sa Filipino?","answer":"Sapatos","choices":["Sapatos","Medyas","Tsinelas","Sandalyas"],"hint":"You wear this on your feet!"},
@@ -102,7 +102,7 @@
       {"id":14,"type":"multiple_choice","question":"Ano ang 'scarf' sa Filipino?","answer":"Bandana","choices":["Bandana","Sombrero","Dyaket","Medyas"],"hint":"You wrap this around your neck when cold!"},
       {"id":15,"type":"true_false","question":"Ang 'Uniporme' ay damit na isinusuot sa paaralan.","answer":"Tama","choices":["Tama","Mali"],"hint":"Uniform is your school clothes!"}
     ],
-    "7": [
+    "2-3": [
       {"id":1,"type":"multiple_choice","question":"Ano ang 'head' sa Filipino?","answer":"Ulo","choices":["Ulo","Mukha","Leeg","Balikat"],"hint":"It's at the top of your body!"},
       {"id":2,"type":"multiple_choice","question":"Ano ang 'face' sa Filipino?","answer":"Mukha","choices":["Mukha","Ulo","Ilong","Mata"],"hint":"Your eyes and nose are on this!"},
       {"id":3,"type":"multiple_choice","question":"Ano ang 'eyes' sa Filipino?","answer":"Mata","choices":["Mata","Ilong","Tainga","Bibig"],"hint":"You see with these!"},
@@ -119,7 +119,7 @@
       {"id":14,"type":"multiple_choice","question":"Ano ang 'neck' sa Filipino?","answer":"Leeg","choices":["Leeg","Balikat","Dibdib","Likod"],"hint":"This connects your head to your body!"},
       {"id":15,"type":"multiple_choice","question":"Ano ang 'back' sa Filipino?","answer":"Likod","choices":["Likod","Dibdib","Tiyan","Leeg"],"hint":"The opposite side from your chest!"}
     ],
-    "8": [
+    "2-4": [
       {"id":1,"type":"multiple_choice","question":"Ano ang 'ball' sa Filipino?","answer":"Bola","choices":["Bola","Laruan","Tren","Sasakyan"],"hint":"You kick or throw this round toy!"},
       {"id":2,"type":"multiple_choice","question":"Ano ang 'doll' sa Filipino?","answer":"Manika","choices":["Manika","Laruan","Bola","Tren"],"hint":"A toy that looks like a person!"},
       {"id":3,"type":"multiple_choice","question":"Ano ang 'toy car' sa Filipino?","answer":"Kotse-kotsehan","choices":["Kotse-kotsehan","Tren","Bola","Manika"],"hint":"A miniature vehicle toy!"},
@@ -136,7 +136,7 @@
       {"id":14,"type":"true_false","question":"Ang 'Bola' ay isang uri ng laruan.","answer":"Tama","choices":["Tama","Mali"],"hint":"A ball is definitely a toy!"},
       {"id":15,"type":"multiple_choice","question":"Ano ang 'top (spinning toy)' sa Filipino?","answer":"Trumpo","choices":["Trumpo","Bola","Manika","Yo-yo"],"hint":"A wooden toy that spins around!"}
     ],
-    "9": [
+    "3-1": [
       {"id":1,"type":"multiple_choice","question":"Ano ang 'car' sa Filipino?","answer":"Kotse","choices":["Kotse","Bus","Tren","Eroplano"],"hint":"A four-wheeled vehicle for your family!"},
       {"id":2,"type":"multiple_choice","question":"Ano ang 'bus' sa Filipino?","answer":"Bus","choices":["Bus","Kotse","Tren","Jeep"],"hint":"A big vehicle that carries many passengers!"},
       {"id":3,"type":"multiple_choice","question":"Ano ang 'airplane' sa Filipino?","answer":"Eroplano","choices":["Eroplano","Barko","Tren","Kotse"],"hint":"This vehicle flies in the sky!"},
@@ -153,7 +153,7 @@
       {"id":14,"type":"true_false","question":"Ang 'Barko' ay sasakyan sa dagat.","answer":"Tama","choices":["Tama","Mali"],"hint":"Ships sail on the sea!"},
       {"id":15,"type":"multiple_choice","question":"Ano ang 'small boat' sa Filipino?","answer":"Bangka","choices":["Bangka","Barko","Tren","Bisikleta"],"hint":"A small wooden boat used by Filipino fishermen!"}
     ],
-    "10": [
+    "3-2": [
       {"id":1,"type":"multiple_choice","question":"Ano ang 'sunny' sa Filipino?","answer":"Maaraw","choices":["Maaraw","Maulan","Maulap","Mahangin"],"hint":"When the sun is shining bright!"},
       {"id":2,"type":"multiple_choice","question":"Ano ang 'rainy' sa Filipino?","answer":"Maulan","choices":["Maulan","Maaraw","Maulap","Mahangin"],"hint":"When water falls from the sky!"},
       {"id":3,"type":"multiple_choice","question":"Ano ang 'windy' sa Filipino?","answer":"Mahangin","choices":["Mahangin","Maaraw","Maulan","Malamig"],"hint":"When the air moves strongly!"},
@@ -170,7 +170,7 @@
       {"id":14,"type":"multiple_choice","question":"Ano ang 'typhoon' sa Filipino?","answer":"Bagyo","choices":["Bagyo","Ulan","Hangin","Lindol"],"hint":"A strong tropical storm!"},
       {"id":15,"type":"multiple_choice","question":"Ano ang 'fog' sa Filipino?","answer":"Hamog","choices":["Hamog","Ulap","Ulan","Usok"],"hint":"A misty cloud close to the ground!"}
     ],
-    "11": [
+    "3-3": [
       {"id":1,"type":"multiple_choice","question":"Ano ang 'mango' sa Filipino?","answer":"Mangga","choices":["Mangga","Saging","Papaya","Lansones"],"hint":"The national fruit of the Philippines!"},
       {"id":2,"type":"multiple_choice","question":"Ano ang 'banana' sa Filipino?","answer":"Saging","choices":["Saging","Mangga","Pinya","Papaya"],"hint":"A long yellow fruit that monkeys love!"},
       {"id":3,"type":"multiple_choice","question":"Ano ang 'pineapple' sa Filipino?","answer":"Pinya","choices":["Pinya","Mangga","Saging","Papaya"],"hint":"A spiky fruit with a crown!"},
@@ -187,7 +187,7 @@
       {"id":14,"type":"multiple_choice","question":"Ano ang 'durian' sa Filipino?","answer":"Durian","choices":["Durian","Langka","Rambutan","Lansones"],"hint":"The smelly but delicious king of fruits!"},
       {"id":15,"type":"multiple_choice","question":"Ano ang 'lychee' sa Filipino?","answer":"Litsyas","choices":["Litsyas","Lansones","Rambutan","Langka"],"hint":"A small sweet fruit with rough red skin!"}
     ],
-    "12": [
+    "3-4": [
       {"id":1,"type":"multiple_choice","question":"Ano ang 'vegetable' sa Filipino?","answer":"Gulay","choices":["Gulay","Prutas","Pagkain","Halaman"],"hint":"Healthy greens you eat!"},
       {"id":2,"type":"multiple_choice","question":"Ano ang 'rice plant' sa Filipino?","answer":"Palay","choices":["Palay","Kanin","Mais","Trigo"],"hint":"Before becoming rice, it is this!"},
       {"id":3,"type":"multiple_choice","question":"Ano ang 'corn' sa Filipino?","answer":"Mais","choices":["Mais","Palay","Trigo","Gulay"],"hint":"A yellow vegetable on a cob!"},
@@ -204,7 +204,7 @@
       {"id":14,"type":"true_false","question":"Ang 'Ampalaya' ay matamis na gulay.","answer":"Mali","choices":["Tama","Mali"],"hint":"Ampalaya is actually bitter!"},
       {"id":15,"type":"multiple_choice","question":"Ano ang 'ginger' sa Filipino?","answer":"Luya","choices":["Luya","Sibuyas","Bawang","Kamatis"],"hint":"A spicy root used in cooking and tea!"}
     ],
-    "13": [
+    "4-1": [
       {"id":1,"type":"multiple_choice","question":"Ano ang 'school' sa Filipino?","answer":"Paaralan","choices":["Paaralan","Ospital","Simbahan","Palengke"],"hint":"Where you go to learn every day!"},
       {"id":2,"type":"multiple_choice","question":"Ano ang 'hospital' sa Filipino?","answer":"Ospital","choices":["Ospital","Paaralan","Simbahan","Parke"],"hint":"Where sick people go to get better!"},
       {"id":3,"type":"multiple_choice","question":"Ano ang 'church' sa Filipino?","answer":"Simbahan","choices":["Simbahan","Paaralan","Ospital","Palengke"],"hint":"A place for prayer and worship!"},
@@ -221,7 +221,7 @@
       {"id":14,"type":"multiple_choice","question":"Ano ang 'airport' sa Filipino?","answer":"Paliparan","choices":["Paliparan","Pantalan","Estasyon","Gasolinahan"],"hint":"Where airplanes take off and land!"},
       {"id":15,"type":"multiple_choice","question":"Ano ang 'playground' sa Filipino?","answer":"Palaruan","choices":["Palaruan","Parke","Hardin","Bahay"],"hint":"An area with swings and slides for kids!"}
     ],
-    "14": [
+    "4-2": [
       {"id":1,"type":"multiple_choice","question":"Ano ang 'run' sa Filipino?","answer":"Tumakbo","choices":["Tumakbo","Lumakad","Lumundag","Lumangoy"],"hint":"Moving fast on your feet!"},
       {"id":2,"type":"multiple_choice","question":"Ano ang 'walk' sa Filipino?","answer":"Lumakad","choices":["Lumakad","Tumakbo","Lumundag","Lumangoy"],"hint":"Moving slowly on your feet!"},
       {"id":3,"type":"multiple_choice","question":"Ano ang 'jump' sa Filipino?","answer":"Lumundag","choices":["Lumundag","Tumakbo","Lumakad","Lumangoy"],"hint":"Leaping into the air!"},
@@ -238,7 +238,7 @@
       {"id":14,"type":"true_false","question":"Ang 'Kumain' ay nangangahulugang 'to drink'.","answer":"Mali","choices":["Tama","Mali"],"hint":"Kumain means to eat, not to drink!"},
       {"id":15,"type":"multiple_choice","question":"Ano ang 'draw' sa Filipino?","answer":"Gumuhit","choices":["Gumuhit","Sumulat","Magbasa","Kumanta"],"hint":"Making pictures with a pencil or crayon!"}
     ],
-    "15": [
+    "4-3": [
       {"id":1,"type":"multiple_choice","question":"Ano ang 'happy' sa Filipino?","answer":"Masaya","choices":["Masaya","Malungkot","Galit","Takot"],"hint":"How you feel when you smile!"},
       {"id":2,"type":"multiple_choice","question":"Ano ang 'sad' sa Filipino?","answer":"Malungkot","choices":["Malungkot","Masaya","Galit","Takot"],"hint":"How you feel when you cry!"},
       {"id":3,"type":"multiple_choice","question":"Ano ang 'angry' sa Filipino?","answer":"Galit","choices":["Galit","Masaya","Malungkot","Takot"],"hint":"How you feel when something is unfair!"},
@@ -255,7 +255,7 @@
       {"id":14,"type":"multiple_choice","question":"Ano ang 'proud' sa Filipino?","answer":"Ipinagmamalaki","choices":["Ipinagmamalaki","Nasasabik","Masaya","Nagulat"],"hint":"How you feel when you do something great!"},
       {"id":15,"type":"true_false","question":"Ang 'Gutom' ay pakiramdam kapag kailangan ng tubig.","answer":"Mali","choices":["Tama","Mali"],"hint":"Gutom means hungry (needs food), not thirsty!"}
     ],
-    "16": [
+    "5-1": [
       {"id":1,"type":"multiple_choice","question":"Ano ang 'Monday' sa Filipino?","answer":"Lunes","choices":["Lunes","Martes","Miyerkules","Huwebes"],"hint":"The first day of the school week!"},
       {"id":2,"type":"multiple_choice","question":"Ano ang 'Tuesday' sa Filipino?","answer":"Martes","choices":["Martes","Lunes","Miyerkules","Biyernes"],"hint":"The second day of the week!"},
       {"id":3,"type":"multiple_choice","question":"Ano ang 'Wednesday' sa Filipino?","answer":"Miyerkules","choices":["Miyerkules","Martes","Huwebes","Sabado"],"hint":"The middle of the school week!"},
@@ -272,7 +272,7 @@
       {"id":14,"type":"multiple_choice","question":"Ano ang araw bago ang Miyerkules?","answer":"Martes","choices":["Martes","Huwebes","Lunes","Biyernes"],"hint":"Tuesday comes right before Wednesday!"},
       {"id":15,"type":"multiple_choice","question":"Ano ang araw pagkatapos ng Biyernes?","answer":"Sabado","choices":["Sabado","Linggo","Lunes","Huwebes"],"hint":"Saturday comes after Friday!"}
     ],
-    "17": [
+    "5-2": [
       {"id":1,"type":"multiple_choice","question":"Ano ang 'January' sa Filipino?","answer":"Enero","choices":["Enero","Pebrero","Marso","Abril"],"hint":"The first month of the year!"},
       {"id":2,"type":"multiple_choice","question":"Ano ang 'February' sa Filipino?","answer":"Pebrero","choices":["Pebrero","Enero","Marso","Abril"],"hint":"The month of Valentine's Day!"},
       {"id":3,"type":"multiple_choice","question":"Ano ang 'March' sa Filipino?","answer":"Marso","choices":["Marso","Pebrero","Abril","Mayo"],"hint":"The third month!"},
@@ -289,7 +289,7 @@
       {"id":14,"type":"true_false","question":"Ang 'Disyembre' ay ang ika-12 buwan ng taon.","answer":"Tama","choices":["Tama","Mali"],"hint":"December is the 12th and last month!"},
       {"id":15,"type":"multiple_choice","question":"Ano ang ika-6 na buwan ng taon?","answer":"Hunyo","choices":["Hunyo","Mayo","Hulyo","Abril"],"hint":"Jan=1, Feb=2, Mar=3, Apr=4, May=5, Jun=?"}
     ],
-    "18": [
+    "5-3": [
       {"id":1,"type":"multiple_choice","question":"Ano ang unang kulay ng bahaghari?","answer":"Pula","choices":["Pula","Kahel","Dilaw","Berde"],"hint":"ROYGBIV — R is for...!"},
       {"id":2,"type":"multiple_choice","question":"Ano ang ikalawang kulay ng bahaghari?","answer":"Kahel","choices":["Kahel","Pula","Dilaw","Berde"],"hint":"ROYGBIV — O is for...!"},
       {"id":3,"type":"multiple_choice","question":"Ano ang ikatlong kulay ng bahaghari?","answer":"Dilaw","choices":["Dilaw","Kahel","Berde","Asul"],"hint":"ROYGBIV — Y is for...!"},
@@ -306,7 +306,7 @@
       {"id":14,"type":"multiple_choice","question":"Saan kita makakakita ng bahaghari?","answer":"Sa kalangitan","choices":["Sa kalangitan","Sa dagat","Sa lupa","Sa bundok"],"hint":"Look up in the sky after rain!"},
       {"id":15,"type":"true_false","question":"Ang Kahel ay nasa pagitan ng Pula at Dilaw sa bahaghari.","answer":"Tama","choices":["Tama","Mali"],"hint":"Red, Orange, Yellow — orange is between red and yellow!"}
     ],
-    "19": [
+    "6-1": [
       {"id":1,"type":"multiple_choice","question":"Ano ang 'first' sa Filipino?","answer":"Una","choices":["Una","Ikalawa","Ikatlo","Ikaapat"],"hint":"Number one position!"},
       {"id":2,"type":"multiple_choice","question":"Ano ang 'second' sa Filipino?","answer":"Ikalawa","choices":["Ikalawa","Una","Ikatlo","Ikaapat"],"hint":"Runner-up position!"},
       {"id":3,"type":"multiple_choice","question":"Ano ang 'third' sa Filipino?","answer":"Ikatlo","choices":["Ikatlo","Ikalawa","Ikaapat","Ikalima"],"hint":"Bronze medal position!"},
@@ -323,7 +323,7 @@
       {"id":14,"type":"true_false","question":"Ang 'Ikatlo' ay nangangahulugang 'second'.","answer":"Mali","choices":["Tama","Mali"],"hint":"Ikatlo means third, not second!"},
       {"id":15,"type":"multiple_choice","question":"Ano ang 'last' sa Filipino?","answer":"Huli","choices":["Huli","Una","Ikalawa","Gitna"],"hint":"The final position in a race!"}
     ],
-    "20": [
+    "6-2": [
       {"id":1,"type":"multiple_choice","question":"Paano mo sasabihin ang 'Good morning'?","answer":"Magandang umaga","choices":["Magandang umaga","Magandang hapon","Magandang gabi","Kumusta"],"hint":"Greet someone in the morning!"},
       {"id":2,"type":"multiple_choice","question":"Paano mo sasabihin ang 'Good afternoon'?","answer":"Magandang hapon","choices":["Magandang hapon","Magandang umaga","Magandang gabi","Paalam"],"hint":"Greet someone in the afternoon!"},
       {"id":3,"type":"multiple_choice","question":"Paano mo sasabihin ang 'Good evening'?","answer":"Magandang gabi","choices":["Magandang gabi","Magandang umaga","Magandang hapon","Kumusta"],"hint":"Greet someone at night!"},
@@ -339,6 +339,23 @@
       {"id":13,"type":"true_false","question":"Ang 'Salamat' ay nangangahulugang 'Thank you'.","answer":"Tama","choices":["Tama","Mali"],"hint":"Salamat is the Filipino word for thank you!"},
       {"id":14,"type":"multiple_choice","question":"Paano mo sasabihin ang 'I'm fine'?","answer":"Mabuti naman","choices":["Mabuti naman","Malungkot ako","Pagod ako","Hindi ko alam"],"hint":"A positive reply to 'Kumusta ka?'!"},
       {"id":15,"type":"multiple_choice","question":"Paano mo sasabihin ang 'Where is the bathroom'?","answer":"Nasaan ang CR?","choices":["Nasaan ang CR?","Magkano?","Saan ka pupunta?","Anong oras na?"],"hint":"CR stands for Comfort Room!"}
+    ],
+    "99-1": [
+      {"id":1,"type":"multiple_choice","question":"Ano ang kulay ng langit?","answer":"Asul","choices":["Asul","Pula","Berde","Dilaw"],"hint":"Baitang 1 – Mga Kulay!"},
+      {"id":2,"type":"multiple_choice","question":"Ano ang 'three' sa Filipino?","answer":"Tatlo","choices":["Tatlo","Dalawa","Apat","Lima"],"hint":"Baitang 1 – Mga Numero!"},
+      {"id":3,"type":"multiple_choice","question":"Ano ang hayop na 'dog' sa Filipino?","answer":"Aso","choices":["Aso","Pusa","Ibon","Isda"],"hint":"Baitang 1 – Mga Hayop!"},
+      {"id":4,"type":"multiple_choice","question":"Ano ang pagkaing 'rice' sa Filipino?","answer":"Kanin","choices":["Kanin","Tinapay","Itlog","Karne"],"hint":"Baitang 2 – Mga Pagkain!"},
+      {"id":5,"type":"multiple_choice","question":"Ano ang tawag sa 'mother' sa Filipino?","answer":"Nanay","choices":["Nanay","Tatay","Ate","Kuya"],"hint":"Baitang 1 – Pamilya!"},
+      {"id":6,"type":"multiple_choice","question":"Ano ang sasakyang 'airplane' sa Filipino?","answer":"Eroplano","choices":["Eroplano","Kotse","Barko","Bus"],"hint":"Baitang 3 – Mga Sasakyan!"},
+      {"id":7,"type":"multiple_choice","question":"Ano ang 'sunny weather' sa Filipino?","answer":"Maliwanag","choices":["Maliwanag","Maulan","Maulap","Mahangin"],"hint":"Baitang 3 – Panahon!"},
+      {"id":8,"type":"multiple_choice","question":"Ano ang prutas na 'apple' sa Filipino?","answer":"Mansanas","choices":["Mansanas","Mangga","Saging","Suha"],"hint":"Baitang 3 – Mga Prutas!"},
+      {"id":9,"type":"multiple_choice","question":"Ano ang lugar na 'school' sa Filipino?","answer":"Paaralan","choices":["Paaralan","Ospital","Palengke","Simbahan"],"hint":"Baitang 4 – Mga Lugar!"},
+      {"id":10,"type":"multiple_choice","question":"Ano ang damdamin na 'happy' sa Filipino?","answer":"Masaya","choices":["Masaya","Malungkot","Galit","Takot"],"hint":"Baitang 4 – Mga Damdamin!"},
+      {"id":11,"type":"multiple_choice","question":"Anong araw ang 'Monday' sa Filipino?","answer":"Lunes","choices":["Lunes","Martes","Miyerkules","Huwebes"],"hint":"Baitang 5 – Mga Araw!"},
+      {"id":12,"type":"multiple_choice","question":"Anong buwan ang 'January' sa Filipino?","answer":"Enero","choices":["Enero","Pebrero","Marso","Abril"],"hint":"Baitang 5 – Mga Buwan!"},
+      {"id":13,"type":"multiple_choice","question":"Paano mo sasabihin ang 'Thank you' sa Filipino?","answer":"Salamat","choices":["Salamat","Paumanhin","Paalam","Oo"],"hint":"Baitang 6 – Mga Parirala!"},
+      {"id":14,"type":"multiple_choice","question":"Ano ang 'second' sa ordinal numbers sa Filipino?","answer":"Ikalawa","choices":["Ikalawa","Una","Ikatlo","Ikaapat"],"hint":"Baitang 6 – Mga Bilang na Pang-ayos!"},
+      {"id":15,"type":"true_false","question":"Ang 'Mahal kita' ay nangangahulugang 'I love you'.","answer":"Tama","choices":["Tama","Mali"],"hint":"Baitang 6 – Mga Parirala!"}
     ]
   }
 }

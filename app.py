@@ -1,5 +1,6 @@
 import json
 import os
+import random
 from datetime import date, datetime, timedelta
 from flask import Flask, render_template, request, jsonify, session
 
@@ -87,6 +88,11 @@ def home():
         grade_topics = [t for t in topics_with_status if t["grade"] == grade_num]
         grades.append({"num": grade_num, "topics": grade_topics})
 
+    # Append the mixed grade group (grade 99) after the numbered grades
+    mixed_topics = [t for t in topics_with_status if t["grade"] == 99]
+    if mixed_topics:
+        grades.append({"num": 99, "topics": mixed_topics})
+
     return render_template(
         "home.html",
         grades=grades,
@@ -96,13 +102,13 @@ def home():
     )
 
 
-@app.route("/lesson/<int:topic_id>")
+@app.route("/lesson/<topic_id>")
 def lesson(topic_id):
     init_session()
     topic = next((t for t in TOPICS if t["id"] == topic_id), None)
     if not topic:
         return render_template("404.html"), 404
-    questions = QUESTIONS.get(str(topic_id), [])
+    questions = random.sample(QUESTIONS.get(topic_id, []), k=len(QUESTIONS.get(topic_id, [])))
     return render_template(
         "lesson.html",
         topic=topic,

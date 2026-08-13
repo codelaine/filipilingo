@@ -314,6 +314,10 @@ a { text-decoration: none; color: inherit; }
   white-space: nowrap;
 }
 
+.accordion-grade-mixed {
+  background: linear-gradient(90deg, #7c5cd8, #3b82d4);
+}
+
 .accordion-title {
   font-size: 1.05rem;
   font-weight: 800;
@@ -400,9 +404,14 @@ a { text-decoration: none; color: inherit; }
 /* ── Hearts ────────────────────────────────────────────────── */
 .hearts-row {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
   gap: .5rem;
   margin-bottom: 1rem;
+}
+.hearts-group {
+  display: flex;
+  gap: .5rem;
   font-size: 1.5rem;
 }
 .heart { transition: transform .2s, opacity .2s; }
@@ -580,7 +589,7 @@ a { text-decoration: none; color: inherit; }
 .btn-primary:active { transform: translateY(0); }
 .btn-lg  { padding: .9rem 2rem; font-size: 1.1rem; }
 .btn-xl  { padding: 1.1rem 2.5rem; font-size: 1.2rem; }
-.btn-next { width: 100%; margin-top: .5rem; }
+.btn-next { padding: .6rem 1.4rem; white-space: nowrap; }
 
 /* ── Celebration Overlay ───────────────────────────────────── */
 .celebration-overlay {
