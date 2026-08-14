@@ -12,6 +12,7 @@
     {"id": "3-2", "grade": 3, "title": "Panahon",                  "english": "Weather",          "icon": "☀️", "description": "Ang panahon sa Filipino!"},
     {"id": "3-3", "grade": 3, "title": "Mga Prutas",               "english": "Fruits",           "icon": "🍎", "description": "Mga prutas sa Filipino!"},
     {"id": "3-4", "grade": 3, "title": "Mga Gulay",                "english": "Vegetables",       "icon": "🥦", "description": "Mga gulay sa Filipino!"},
+    {"id": "3-5", "grade": 3, "title": "Pang-uri",                 "english": "Adjectives",       "icon": "✨", "description": "Alamin ang mga salitang naglalarawan!"},
     {"id": "4-1", "grade": 4, "title": "Mga Lugar",                "english": "Places",           "icon": "🏫", "description": "Mga lugar sa Filipino!"},
     {"id": "4-2", "grade": 4, "title": "Mga Gawain",               "english": "Actions/Verbs",    "icon": "🏃", "description": "Mga kilos at gawain!"},
     {"id": "4-3", "grade": 4, "title": "Mga Damdamin",             "english": "Feelings",         "icon": "😊", "description": "Ang iyong damdamin sa Filipino!"},
