@@ -407,7 +407,8 @@ a { text-decoration: none; color: inherit; }
   justify-content: space-between;
   align-items: center;
   gap: .5rem;
-  margin-bottom: 1rem;
+  max-width: 680px;
+  margin: 0 auto 1rem;
 }
 .hearts-group {
   display: flex;
@@ -681,6 +682,27 @@ a { text-decoration: none; color: inherit; }
 
 .shake { animation: shake .35s ease; }
 .bounce-in { animation: bounce-in .4s ease; }
+
+/* ── Footer ────────────────────────────────────────────────── */
+.site-footer {
+  margin-top: 3rem;
+  padding: 1.5rem 1rem;
+  border-top: 1px solid var(--border);
+  text-align: center;
+  font-size: .82rem;
+  color: var(--muted);
+}
+.site-footer a {
+  color: var(--muted);
+  font-weight: 700;
+  text-decoration: none;
+  border-bottom: 1px solid var(--border);
+  transition: color .15s, border-color .15s;
+}
+.site-footer a:hover {
+  color: var(--coral);
+  border-color: var(--coral);
+}
 
 /* ── Utility ───────────────────────────────────────────────── */
 .hidden { display: none !important; }
