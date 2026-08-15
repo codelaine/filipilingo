@@ -108,7 +108,9 @@ def lesson(topic_id):
     topic = next((t for t in TOPICS if t["id"] == topic_id), None)
     if not topic:
         return render_template("404.html"), 404
-    questions = random.sample(QUESTIONS.get(topic_id, []), k=len(QUESTIONS.get(topic_id, [])))
+    all_questions = QUESTIONS.get(topic_id, [])
+    random.shuffle(all_questions)
+    questions = all_questions[:15]
     return render_template(
         "lesson.html",
         topic=topic,
