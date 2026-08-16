@@ -11,7 +11,7 @@
   </div>
 
   <!-- Streak Banner -->
-  <div class="streak-banner {% if streak == 0 %}streak-zero{% endif %}">
+  <!--div class="streak-banner {% if streak == 0 %}streak-zero{% endif %}">
     <span class="streak-fire">🔥</span>
     <div class="streak-info">
       {% if streak == 0 %}
@@ -25,8 +25,10 @@
         <span class="streak-sub">Kahanga-hanga! Huwag itong iwasak!</span>
       {% endif %}
     </div>
-    <div class="streak-num">{{ streak }}</div>
-  </div>
+
+    <-- div class="streak-num">{{ streak }}</div >
+    <div class="streak-num">0</div>
+  </div -->
 
   <!-- Daily Progress -->
   <div class="daily-card">
@@ -42,9 +44,10 @@
 {% set grade_meta = {1: ("🌱", "Baitang 1 - WIP"), 2: ("🌿", "Baitang 2 - WIP"), 3: ("🌳", "Baitang 3"), 4: ("⭐", "Baitang 4 - WIP"), 5: ("🌟", "Baitang 5 - WIP"), 6: ("🏆", "Baitang 6 - WIP"), 99: ("🎲", "Halo-Halo")} %}
 <!-- Grade Accordion -->
 <section class="topics-section">
-  <h2 class="section-title">Piliin ang Baitang <span class="section-badge">Baitang 1–6 + Halo-Halo</span></h2>
+  <h2 class="section-title">Piliin ang Baitang <span class="section-badge">Baitang 3 + Halo-Halo</span></h2>
   <div class="accordion" id="grade-accordion">
     {% for grade in grades %}
+    {% if grade.num not in [1, 2, 4, 5, 6] %}
     <div class="accordion-item" id="grade-{{ grade.num }}">
       <div class="accordion-header" onclick="toggleAccordion('grade-{{ grade.num }}')">
         <div class="accordion-header-left">
@@ -67,7 +70,8 @@
               <div class="topic-title">{{ topic.title }}</div>
               <div class="topic-english">{{ topic.english }}</div>
               <div class="topic-meta">
-                <span class="topic-questions">{{ topic.question_count }} tanong</span>
+                <!-- span class="topic-questions">{{ topic.question_count }} tanong</span -->
+                <span class="topic-questions">15 tanong</span>
                 {% if topic.completed %}
                 <span class="topic-done-badge">✅ Tapos na!</span>
                 {% else %}
@@ -80,6 +84,7 @@
         </div>
       </div>
     </div>
+    {% endif %}
     {% endfor %}
   </div>
 </section>
